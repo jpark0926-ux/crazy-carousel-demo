@@ -1,0 +1,58 @@
+export const DROPS = [
+  {
+    id: "nectar",
+    theme: "nectar",
+    title: "Neon Nectar",
+    tag: "Pulse cologne",
+    caption: "A citrus hit that never quite settles.",
+  },
+  {
+    id: "velvet",
+    theme: "velvet",
+    title: "Velvet Static",
+    tag: "Night vinyl",
+    caption: "Bass you can feel in the wallpaper.",
+  },
+  {
+    id: "solar",
+    theme: "solar",
+    title: "Solar Flare",
+    tag: "Dawn chronograph",
+    caption: "Gold that arrives a minute early.",
+  },
+  {
+    id: "ice",
+    theme: "ice",
+    title: "Ice Circuit",
+    tag: "Arctic runner",
+    caption: "Cold air, clean lines, no leftover heat.",
+  },
+  {
+    id: "crimson",
+    theme: "crimson",
+    title: "Crimson Pulse",
+    tag: "Signal rouge",
+    caption: "A red that refuses to sit down.",
+  },
+  {
+    id: "moss",
+    theme: "moss",
+    title: "Moss Signal",
+    tag: "Field notes",
+    caption: "Wet earth after a night of neon.",
+  },
+  {
+    id: "chrome",
+    theme: "chrome",
+    title: "Chrome Drift",
+    tag: "After hours",
+    caption: "Mirror finish, slightly untrustworthy.",
+  },
+  {
+    id: "amber",
+    theme: "amber",
+    title: "Amber Halo",
+    tag: "Low light",
+    caption: "Warmth that lingers in the doorway.",
+  },
+];
