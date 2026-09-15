@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#070708" />
+    <title>Crazy Carousel — Atelier 08</title>
+    <meta
+      name="description"
+      content="An over-the-top 3D product carousel with elastic snap, momentum, and playful depth."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,480;0,9..144,620;1,9..144,480&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="vignette" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <p class="brand">Atelier <em>08</em></p>
+      <p class="wordmark">Crazy Carousel</p>
+      <p class="edition">Drop room</p>
+    </header>
+
+    <main class="app">
+      <section class="stage" id="stage" aria-roledescription="carousel" aria-label="Product drops">
+        <button class="nav nav-prev" id="prev" type="button" aria-label="Previous drop">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M15.2 4.8 8 12l7.2 7.2" />
+          </svg>
+        </button>
+
+        <div class="viewport" id="viewport">
+          <div class="card-measure" id="measure" aria-hidden="true"></div>
+          <div class="track" id="track"></div>
+        </div>
+
+        <button class="nav nav-next" id="next" type="button" aria-label="Next drop">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M8.8 4.8 16 12l-7.2 7.2" />
+          </svg>
+        </button>
+      </section>
+
+      <section class="copy">
+        <p class="hint" id="hint">
+          <span class="hint-hand" aria-hidden="true"></span>
+          drag me
+        </p>
+        <p class="kicker" id="kicker">01 — Pulse cologne</p>
+        <h1 class="title" id="title">Neon Nectar</h1>
+        <p class="caption" id="caption">A citrus hit that never quite settles.</p>
+        <div class="dots" id="dots" role="tablist" aria-label="Choose a drop"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>← → keys · wheel · swipe</p>
+      <p id="counter">01 / 08</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
